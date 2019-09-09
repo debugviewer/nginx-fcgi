@@ -6,13 +6,11 @@
 
 ### 1.2 [fastcgi开发环境搭建](./doc/fastcgi开发环境搭建.md)
 
-
-
-## 2.编译配置文件
+## 2.编写配置文件
 
 ```
 cd /usr/local/nginx/conf
-vim ./fcgi.conf
+vim fcgi.conf
 ```
 
 fcgi.conf文件：
@@ -44,8 +42,6 @@ http {
     }
 }
 ```
-
-
 
 ## 3. 源代码
 
