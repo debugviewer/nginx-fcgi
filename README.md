@@ -112,22 +112,25 @@ cd /usr/local/nginx/sbin
 
 ## 6.启动nginx
 
+```
 cd /usr/local/nginx/sbin
 ./nginx -c ../conf/fcgi.conf
+```
 
 ## 7.浏览器测试
 
-地址栏输入：192.168.31.235/fcgi，回车
+地址栏输入：192.168.31.235/fcgi，回车，界面显示：
 
-**Hello World!**
-
-**request times: 1**
-
-QUERY_STRING: 
-
-REMOTE_ADDR: 192.168.31.228
-
-mysql zm
+> **Hello World!**
+>
+> **request times: 1**
+>
+> QUERY_STRING: 
+>
+> REMOTE_ADDR: 192.168.31.228
+>
+> mysql zm
+>
 
 验证结果：
 
@@ -136,3 +139,4 @@ ls /home
 mysql  zm
 ```
 
+结果正确！
